@@ -1,0 +1,42 @@
+<html>
+    <head>
+            <link rel= "stylesheet" href="style2.css""/>
+        <style>
+             table,th,td {
+            border: 1px solid black;
+        }  
+        </style> 
+        <link rel= "stylesheet" href="style.css" />
+    </head>
+        <body>
+            <table id="t01">
+                <tr>
+                    <th>
+                        Task Name
+                    </th>
+                    <th>
+                        Task Due
+                    </th>
+                    <th>
+                        Task Description
+                    </th>
+                </tr>
+                <tr>
+                <% for(let i=0; i<tasks.length;i++){%>
+                <tr></tr>
+                    <td>
+                        <%=tasks[i].taskName %>
+                    </td>
+                    <td>
+                        <%=tasks[i].taskDue %>
+                    </td>
+                    <td>
+                        <%=tasks[i].taskDesc %>
+                    </td>
+                </tr>
+                <% }%>
+            </table>
+            Click <a href= "/" HERE</a> to return to home page! :) <br  />
+            Click <a href= "/addTask.html" HERE</a> to go back and add a task^^
+        </body>
+</html>

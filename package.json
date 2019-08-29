@@ -1,0 +1,30 @@
+{
+  "name": "2095-tute",
+  "version": "1.0.0",
+  "main": "Untitled-1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chalk": "^2.4.2",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/H-M0903/fit2095.git"
+  },
+  "bugs": {
+    "url": "https://github.com/H-M0903/fit2095/issues"
+  },
+  "homepage": "https://github.com/H-M0903/fit2095#readme",
+  "description": ""
+}
